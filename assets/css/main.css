@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200");
 
-/*
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -79,7 +75,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background-color: darkred;
+    background-color: #FFC300 ;
 }
 
 /* Basic */
@@ -1480,7 +1476,7 @@ html::-webkit-scrollbar-thumb{
 
 	.bordered-feature-image {
 		display: block;
-		background:#720202FF url("images/bg04.png");
+		background:#FFC300  url("images/bg04.png");
 		padding: 10px;
 		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		margin: 0 0 1.5em 0;
@@ -1489,7 +1485,7 @@ html::-webkit-scrollbar-thumb{
 	}
 	.bordere-feature-image {
 		display: block;
-		background:#720202FF url("images/bg04.png");
+		background:#FFC300  url("images/bg04.png");
 		padding: 10px;
 		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		margin: 0 0 1.5em 0;
@@ -1509,7 +1505,7 @@ html::-webkit-scrollbar-thumb{
 	.button-large {
 
 		display: inline-block;
-		background-color: darkred ;
+		background-color: #FFC300 ;
 		color: #fff;
 		text-decoration: none;
 		font-size: 1.75em;
@@ -1519,26 +1515,25 @@ html::-webkit-scrollbar-thumb{
 		padding: 0 45px;
 		outline: 0;
 		border-radius: 10px;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
-		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+		
 	}
 
 		.button-large:hover {
-			background-image: -moz-linear-gradient(top, #fd492b, #de2a10);
-			background-image: -webkit-linear-gradient(top, #fd492b, #de2a10);
-			background-image: -ms-linear-gradient(top, #fd492b, #de2a10);
-			background-image: linear-gradient(top, #fd492b, #de2a10);
-			background-color: #fd492b;
-			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+			background-image: -moz-linear-gradient(top, #FED244, #DEB73B);
+			background-image: -webkit-linear-gradient(top, #FED244, #DEB73B);
+			background-image: -ms-linear-gradient(top, #FED244, #DEB73B);
+			background-image: linear-gradient(top, #FED244, #DEB73B);
+			background-color: #FED244;
+		
 		}
 
 		.button-large:active {
-			background-image: -moz-linear-gradient(top, #ce1a00, #ed391b);
-			background-image: -webkit-linear-gradient(top, #ce1a00, #ed391b);
-			background-image: -ms-linear-gradient(top, #ce1a00, #ed391b);
-			background-image: linear-gradient(top, #ce1a00, #ed391b);
-			background-color: #ce1a00;
-			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+			background-image: -moz-linear-gradient(top, #FFC300, #FFC300);
+			background-image: -webkit-linear-gradient(top, #FFC300, #FFC300);
+			background-image: -ms-linear-gradient(top, #FFC300, #FFC300);
+			background-image: linear-gradient(top, #FFC300, #FFC300);
+			background-color: #FFC300;
+
 		}
 
 /* Header */
